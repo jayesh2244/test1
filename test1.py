@@ -6,6 +6,11 @@ d ={
     "name":"jayesh",
    "age":"1"
 }
+
+d1 ={
+    "name":"jayesh123",
+   "age":"1"
+}
 db1=client['test1']
 coll=db1['test']
 coll.insert_one(d)
